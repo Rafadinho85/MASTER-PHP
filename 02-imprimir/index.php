@@ -6,14 +6,17 @@
     </head>
     <body>
         <h1>Master en php -  <?php echo "jery.es";?> </h1>
-       
- <?php
-        echo "<h3>Listado de videojuegos:</h3>";
+       <?= "Bienvenido al curso mas grande de PHP"?>
+    <?php
+    //titula de la seccion 
+    echo "<h3>Listado de videojuegos:</h3>";
         echo "<ul>"
             ."<li>GTA</li>"
             ."<li>Fifa</li>"
             ."<li>Mario Bros</li>"
             ."</ul>";
+        
+        //parrafo explicativo
         echo '<p> Esta es toda'.' - '.'lista de juegos</p>';
     ?>        
 
