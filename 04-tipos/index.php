@@ -19,6 +19,10 @@ $verdadero = false;
     echo $verdadero;
     echo "<br>";
 
- echo gettype($verdadero)//funcion que me permite obtener el tipo de dato
-
+ echo gettype($verdadero);//funcion que me permite obtener el tipo de dato
+    //debuggear
+    $mi_nombre [] = "Jery Ramírez";
+    
+    $mi_nombre [] = "Jery Ramírez";
+    var_dump($mi_nombre);
 ?>
