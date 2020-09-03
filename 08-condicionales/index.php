@@ -38,3 +38,13 @@ if ($dia == 1) {
     # code...
     echo "viernes";
 }
+echo "<br>";
+$edad1 = 18;
+$edad2 = 64;
+$edad_oficial = 65; 
+
+if ($edad_oficial >= 18 && $edad_oficial <= 64) {
+    echo "esta en el rango deseado";
+}else {
+    echo "no puede trabajar";
+}
