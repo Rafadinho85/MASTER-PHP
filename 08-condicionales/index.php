@@ -43,8 +43,42 @@ $edad1 = 18;
 $edad2 = 64;
 $edad_oficial = 65; 
 
+//operadores logicos
+/**
+ * AND Y
+ * OR O
+ * NOT O
+ * and, or 
+ * 
+ */
+
 if ($edad_oficial >= 18 && $edad_oficial <= 64) {
     echo "esta en el rango deseado";
 }else {
     echo "no puede trabajar";
+}
+
+//switch
+
+$dia = 4;
+echo "<br>";
+switch ($dia) {
+    case 1:
+        echo "monday";
+        break;
+    case 2;
+        echo "tuesday";
+        break;    
+    case 3:
+        echo "wednesday";
+        break;
+    case 4:
+        echo "thursday";
+    break;
+    case 5;
+        echo "friday";
+    break;
+    default:
+        echo "fin de semana";
+        break;
 }
